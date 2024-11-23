@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var SistemaAutenticacao_1 = require("./SistemaAutenticacao");
-var sistema = new SistemaAutenticacao_1.SistemaAutenticacao();
+const SistemaAutenticacao_1 = require("./SistemaAutenticacao");
+const sistema = new SistemaAutenticacao_1.SistemaAutenticacao();
 // Adicionando usuários
 sistema.adicionarUsuario("joao@example.com", "João", "123456");
 sistema.adicionarUsuario("maria@example.com", "Maria", "abcdef");
