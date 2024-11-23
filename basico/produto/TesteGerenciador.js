@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Gerenciador_1 = require("./Gerenciador");
+var g = new Gerenciador_1.Gerenciador();
+g.add('banana', 10);
+g.add('maça', 5);
+g.add('celular', 1200);
+g.remove('maça');
+console.log('\n*****Lista final****');
+g.list();
